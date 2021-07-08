@@ -1,4 +1,5 @@
-Flash Card Game using Tkinter
+Are you trying to learn a new language? Or studying for an exam? This Flash Card GUI App was made with Tkinter. 
+
 
 ![image](https://user-images.githubusercontent.com/80412098/124786866-f0529180-defc-11eb-9e4c-91bf8037a185.png)
 
@@ -17,3 +18,6 @@ I used PANDAS to read the csv file where I stored the different French and Engli
 Correct Translation
 
 -When the user knows the correct English translation word and clicks on the check button, the clicked_check() function will be called because this particular function is passed as an argument in the check button’s command. When the clicked_check() function is called, the current random word (both French and English) will be removed from the original_data csv file. Then the updated csv data will be saved to a new csv file called words_to_learn.csv. So that the next time the program is run, it should check if words_to_learn.csv file exists. If it exists, the program should use those words to be displayed on the flashcards. If the words_to_learn.csv does not exist (i.e., the first time the program is run), then it should use the words in the french_words.csv (original_data).
+
+
+*NOTE: You can change or add your own data by updating the CSV file.
